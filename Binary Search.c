@@ -2,7 +2,7 @@
 
 #include<conio.h>
 
-//BINARY SEARCH nov-2021
+//BINARY SEARCH NOV-2021
 
 void main(){
 
