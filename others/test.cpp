@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-hello ksjjsj
-cout<<arr[1][0];
+
+for(int i=0,j=1;i<=5 && j<=3;i++,j++) cout<<i<<j;
+
 }

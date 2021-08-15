@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int ways = 0, m = 3;
-int arr[3][3] = {{0, 0, 0}, {0, 1, 1}, {0, 0, 1}};
+int arr[3][3] = {{0, 0, 0}, {0, 0, 0}, {0, 0, 1}};
 void find_path(int x, int y, int a, int b)
 { //a,b are size of grid and that's where the cheese is. (x,y)=mouse position
 
