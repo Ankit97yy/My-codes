@@ -44,7 +44,6 @@ void pop(int arr[])
 void peek(int arr[])
 {
     cout << "top value= " << arr[p] << endl;
-    ;
 }
 void display(int arr[])
 {
