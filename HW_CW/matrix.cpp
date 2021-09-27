@@ -25,7 +25,7 @@ int main(){
             sum_mat[i][j]=sum;
         }
     }
-    cout<<"summation of the"<<endl;
+    cout<<"summation of the the matrix"<<endl;
     for(int i=0;i<2;i++){
         for(int j=0;j<2;j++){
             cout<<sum_mat[i][j]<<"\t";
