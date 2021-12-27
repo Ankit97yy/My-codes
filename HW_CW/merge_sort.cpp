@@ -47,7 +47,7 @@ void merge_sort(int arr[], int lb, int ub)
 
 int main()
 {
-    int arr[5] = {5, 11, 1, -8, 3};
+    int arr[] = {5, 11, 1, -8, 3};
     merge_sort(arr,0,4);
     cout<<endl;
     for(int i=0;i<5;i++){

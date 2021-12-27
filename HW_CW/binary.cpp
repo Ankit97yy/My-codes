@@ -3,8 +3,8 @@
 using namespace std;
 
 int main(){
-    int arr[5]={1,4,5,7,8};
-    int start=0,end=4,mid=0,val,flag=1;
+    int arr[7]={1,4,5,7,8,12,14};
+    int start=0,end=6,mid=0,val;
     cout<<endl<<"enter the number you want to search"<<endl<<endl;
     cin>>val;
     mid=(start+end)/2;

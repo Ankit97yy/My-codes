@@ -39,7 +39,7 @@ void display(int arr[]){
     int i;
     cout<<endl;
     if(is_empt(arr)) return;
-    cout<<"Queue=";
+    cout<<"***Queue***=";
     if(rear==front && rear!=-1 || rear==4 && front==-1){
         i=(front+1)%5;
         for(int j=0;j<5;j++){
@@ -77,7 +77,8 @@ void choice(int x,int arr[]){
 
 int main(){
 int arr[5],x=9;
-while(x!=0){
+while(x!=4){
+	cout<<"\n\nenter 1 to push\nenter 2 to delete\nenter 3 to display\nenter 4 to quit\n\n";
     cout<<"enter your choice: "<<endl;
     cin>>x;
     choice(x,arr);

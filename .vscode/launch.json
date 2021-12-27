@@ -5,6 +5,48 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch learning_class",
+            "request": "launch",
+            "mainClass": "learning_class",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch tet",
+            "request": "launch",
+            "mainClass": "tet",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch recur",
+            "request": "launch",
+            "mainClass": "recur",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch sliding_window",
+            "request": "launch",
+            "mainClass": "sliding_window",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch twosum",
+            "request": "launch",
+            "mainClass": "twosum",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
             "name": "g++ - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
