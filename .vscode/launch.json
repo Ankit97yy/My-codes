@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch file_handling",
+            "request": "launch",
+            "mainClass": "out.file_handling",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch number6",
+            "request": "launch",
+            "mainClass": "assignment_part2.number6",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch combination_sum_II",
+            "request": "launch",
+            "mainClass": "leetcode.combination_sum_II",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch container_with_most_water",
+            "request": "launch",
+            "mainClass": "leetcode.container_with_most_water",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
             "name": "Launch learning_class",
             "request": "launch",
             "mainClass": "learning_class",

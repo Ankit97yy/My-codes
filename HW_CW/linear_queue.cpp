@@ -10,6 +10,7 @@ bool full(int arr[]){
 bool empty(int arr[]){
     if(front==rear) return true;
     else return false;
+    
 }
 void insert(int arr[])
 {   if(full(arr)) cout<<endl<<"**Queue is full***"<<endl;

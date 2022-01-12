@@ -9,6 +9,7 @@ public class number6 {
         System.out.println("enter details of the products");
         for (int i = 0; i < pro.length; i++) {
             System.out.println("enter product name");
+            System.out.println("hello");
             s=sc.nextLine();
             System.out.println("enter product id");
             id=sc.nextInt();
