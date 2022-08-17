@@ -1,25 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function check(name, password, address) {
+            var username = /^[A-Za-z]\s*[A-Za-z]+/;
+            var user_password = /^.{10}$/;
+            var user_address = /^[A-Za-z 0-9]+/;
+            if (!name.value.match(username)) {
+                alert("invalid user name");
+                return;
+            }
+            if (!password.value.match(user_password)) {
+                alert("inavlid password");
+                return;
+            }
+            if (!address.value.match(user_address)) {
+                alert("inavlid address");
+                return;
+            }
+            alert("submitted successfully");
+            return;
+        }
+    </script>
     <title>Document</title>
 </head>
+
 <body>
-    <form action="">
-        Name:-
-        <input type="text" name="" id="" size=1><input type="text" name="" id="" size=1><input type="text" name="" id="" size=1><input type="text" name="" id="" size=1><input type="text" name="" id="" size=1><input type="text" name="" id="" size=1><input type="text" name="" id="" size=1><input type="text" name="" id="" size=1>
+    <form action="" name="f1">
+        Name:
+        <input type="text" name="naame">
         <br>
+        Gender:
         <select name="" id="">
-            <option value="">assam</option>
-            <option value="">meghalaya</option>
+            <option value="">male</option>
+            <option value="">female</option>
         </select>
-        <input type="checkbox" name="3">alo
-        <input type="checkbox" name="3" id=""> male
-        <input type="radio" name="r1"> male
-        <input type="radio" name="r1"> female
-        <button>submit</button>
+        <br>
+        color:
+        <input type="radio" name="2"> red
+        <input type="radio" name="2"> green
+        <br>
+        password:
+        <input type="password" name="password">
+        <br>
+        address: <input type="text" name="address">
+        <br>
+        <input type="button" value="submit" onclick="check(naame,password,address)">
     </form>
 </body>
+
 </html>

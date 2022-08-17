@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script type = "text/javascript">
+            function allLetters(inputtxt)
+            {
+                var letters =  /^[A-Za-z]+$/;
+                if(inputtxt.value.match(letters))
+                {
+                    alert('Your name have accepted : you can try another ');
+                    return true;
+                }
+                else{
+                    alert('please input alphabet characters only');
+                    return false;
+                }
+            }
+
+        </script>
+    </head>
+    <title>Form</title>
+    <body>
+        <form name = "f1">
+            Enter any name : <input type="text" name = "text1"><br>
+            <input type="button" value= "click" name ="mybutton" onClick ="allLetters(text1)">
+        </form>
+    </body>
+</html>

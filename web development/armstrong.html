@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function arm(){
+        var d=parseInt(document.f1.box1.value);
+        var digits = Math.floor(Math.log10(d)) + 1;
+        var sum = 0;
+        var temp=d;
+        while (temp != 0) {
+            var t=temp%10;
+            sum += Math.pow(t,digits)
+            temp =Math.floor(temp/10);
+        }
+        if (sum == d) {
+            alert("arm")
+
+        }
+        else alert("not arm");
+    }
+
+
+    </script>
+</head>
+
+<body>
+    <form action="" name="f1">
+        enter a number
+        <br>
+        <input type="text" name="box1" id="">
+        <br>
+        <input type="button" value="check" onclick="arm()">
+    </form>
+
+</body>
+
+</html>

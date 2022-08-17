@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        
+        function prime() {
+            var index = 2;
+        var d = parseInt(document.f1.box1.value);
+            if (d <= 1) {
+                alert("number is not prime");
+                return;
+            }
+            for (index = 2; index < 10; index++) {
+                if (d % index == 0 && d != index) {
+                    alert("the number is not prime");
+                    break;
+                }
+
+            }
+            if (index == 10) alert("the number is prime")
+
+        }
+
+    </script>
+</head>
+
+<body>
+    <form action="" name="f1">
+        Enter a number
+        <br>
+        <input type="text" name="box1" id="">
+        <br>
+        <input type="button" value="enter" onclick="prime()">
+    </form>
+</body>
+
+</html>

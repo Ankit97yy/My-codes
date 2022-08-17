@@ -2,8 +2,6 @@ package assignment_part2;
 
 import java.util.Scanner;
 
-import javax.sql.rowset.spi.SyncResolver;
-
 public class number2 {
     public static void main(String[] args) {
         String s="";

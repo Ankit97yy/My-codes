@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript">
+        function verify(username, password,confpass, email, number, District, Pincode) {
+            var name=/^[A-Za-z]+\s*[A-Za-z]+$/;
+            var pass=/^\d+$/;
+            var mail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+           var num=/^\d{10}$/;
+           var dist=/^[A-Za-z]+$/;
+           var pin=/^\d{6}$/;
+            if(!username.value.match(name)){
+                alert("inavlid username");
+                return;
+            }
+            if(!password.value.match(pass)){
+                alert("Password should contain only digits");
+                return;
+            }
+            if(password.value!=confpass.value){
+                alert("Password does not match");
+                return;
+            }
+            if(!email.value.match(mail)){
+                alert("invalid mail");
+                return;
+            }
+            if(!number.value.match(num)){
+                alert("Invalid Phone Number");
+                return;
+            }
+            if(!District.value.match(dist)){
+                alert("Invalid District Name");
+                return;
+            }
+            if(!Pincode.value.match(pin)){
+                alert("Invalid Pincode");
+                return;
+            }
+            alert("Submitted Successfully");
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" name="f1">
+        <center>
+            <b><u>REGISTRATION FORM</u></b>
+            <br><br>
+            <b>Username:</b>
+            <input type="text" name="username">
+            <br>
+            <b>Password </b>
+            <input type="text" name="password">
+            <br>
+            <b>Confirm paswword</b>
+            <input type="text" name="confpass">
+            <br>
+            <b>Email Id</b>
+            <input type="text" name="email" id="">
+            <br>
+            <b>Phone no.</b>
+            <input type="text" name="number" id="">
+            <br>
+            <b>District</b>
+            <input type="text" name="District" id="">
+            <br>
+            <b>Pincode</b>
+            <input type="text" name="Pincode" id="">
+            <br><br>
+            <input type="button" value="Submit" onclick="verify(username, password,confpass, email, number, District, Pincode)">
+        </center>
+    </form>
+</body>
+
+</html>

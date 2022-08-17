@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class number5 {
     public static void main(String[] args) {
-        Employee[] emp= new Employee[100];
+        Employee[] emp= new Employee[4];
         String lastname;
         String firstname;
         int hourlywages;

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch intersection_of_two_arrays",
+            "request": "launch",
+            "mainClass": "intersection_of_two_arrays",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch cyclic_sort",
+            "request": "launch",
+            "mainClass": "cyclic_sort",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch permutation",
+            "request": "launch",
+            "mainClass": "permutation",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch some",
+            "request": "launch",
+            "mainClass": "some",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch keypad",
+            "request": "launch",
+            "mainClass": "leetcode.keypad",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
+            "name": "Launch keypad",
+            "request": "launch",
+            "mainClass": "keypad",
+            "projectName": "My-codes_6b7709d5"
+        },
+        {
+            "type": "java",
             "name": "Launch file_handling",
             "request": "launch",
             "mainClass": "out.file_handling",

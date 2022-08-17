@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type = "text/javascript">
+    function check(){
+    var num =parseInt(document.f1.num.value);
+    var temp1 = num;
+    var length = 0;
+    while(temp1 != 0){
+        length = length + 1;
+        temp1 = Math.floor(temp1/10);
+    }
+
+    var temp2 = num;
+    var arm = 0;
+    var rem;
+    while(temp2 != 0){
+        var mul = 1;
+        rem = temp2 % 10;
+        for( i = 0; i< length ;i++){
+            mul = mul * rem;
+        }
+        arm = arm + mul;
+        temp2 = Math.floor(temp2/10);
+    }
+    document.write(arm);
+    if(num == arm){
+        alert("It is a armstrong number ");
+    }
+    else{
+        alert("It is not a armstrong number");
+    }
+}
+</script>
+<body>
+    <form name = "f1">
+        Enter the number : 
+        <input type="text" name = "num">
+        <br>
+        <br>
+        <input type="button" value = "check" onclick = "check()">
+    </form>
+</body>
+</html>
